@@ -8,13 +8,13 @@ This particular project known as Extension Management Machine Assistant(E.M.M.A.
 ## Additional Note:
 In the configuration file under ``config.py`` please add in the details of the following:
 
--WOLFRAM_ID: YOUR WOLFRAM API KEY
--username: your email
--password: your email password
--code: /path/to/your/code_editor
--play_directory: /path/to/your/music_file
--root_user: your name
--chat_log: if you plan on using rainmeter it would be /path/to/your/chat_log/chat.txt
++ WOLFRAM_ID: YOUR WOLFRAM API KEY
++ username: your email
++ password: your email password
++ code: /path/to/your/code_editor
++ play_directory: /path/to/your/music_file
++ root_user: your name
++ chat_log: if you plan on using rainmeter it would be /path/to/your/chat_log/chat.txt
 
 ## Interface Development:
 The development of the interface that I found appealing was to use a rainmeter skin interface to display the information of what the digital assistant was presenting whenever a query was answered. Essentially, I combined python with a fairly simple ``.ini`` script and had it be displayed there. Below is the current interface.
