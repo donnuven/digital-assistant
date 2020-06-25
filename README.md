@@ -7,6 +7,7 @@ This particular project known as Extension Management Machine Assistant(E.M.M.A.
 
 ## Additional Note:
 In the configuration file under ``config.py`` please add in the details of the following:
+
 *WOLFRAM_ID: YOUR WOLFRAM API KEY
 *username: your email
 *password: your email password
