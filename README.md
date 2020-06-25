@@ -5,6 +5,9 @@
 ## Purpose summary:
 This particular project known as Extension Management Machine Assistant(E.M.M.A.) is mostly a learning experience in using various different libraries to develop a digital assistant that can do various tasks for the user, similar to Alexa, Siri, and Google Home. While this is a very early iteration, it has a wide array of functionalities from doing searches on the internet to playing music for the user. There will be future iterations of this project.
 
+## How to run this project:
+To run this project, simply type in the terminal: ``python speech.py``
+
 ## Additional Note:
 In the configuration file under ``config.py`` please add in the details of the following:
 
