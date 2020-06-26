@@ -28,7 +28,7 @@ client = wolframalpha.Client(data['WOLFRAM_ID'])
 
 
 def on_startup_sound():
-    interface_sound = 'C:\\Users\\danie\\pythonprojects\\emma_speech\\sound_files\\interface.wav'
+    interface_sound = 'path/to/your/digital_assistant/sound_file/interface.wav'
     playsound(interface_sound)
 
 
