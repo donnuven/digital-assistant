@@ -20,6 +20,8 @@ In the configuration file under ``config.py`` please add in the details of the f
 + chat_log: if you plan on using rainmeter it would be /path/to/your/chat_log/chat.txt
 + shutdown: path/to/your/sound_file/shutdown.wav
 
+Additional change to be done is under this function: ``def on_startup_sound``  the variable for the interface sound needs to be changed to match where your path to the ``sound_file`` is similar to ``shutdown``.
+
 ## The GUI used for twitch and instagram user search
  The GUI library is from ``PySimpleGui``
 
