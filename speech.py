@@ -214,13 +214,16 @@ class EMMA:
         elif 'instagram' in query.lower():
             instagram_url = [
                 "python", "GUI/instagram_gui.py"]
+            EMMA.speech(
+                "Will need some input for the search of the instagram user.")
             subprocess.call(instagram_url)
-            EMMA.speech('Ok sir, here is an instagram profile')
+            
 
-        elif 'twitch' in query.lower():
+         elif 'twitch' in query.lower():
             twitch_url = ["python", "GUI/twitch_gui.py"]
+            EMMA.speech(
+                "Will need some input for the search of the twitch user.")
             subprocess.call(twitch_url)
-            EMMA.speech("Here is something to watch, sir.")
 
         elif 'close tab' in query.lower():
             EMMA.speech("No problem sir, closing tab.")
