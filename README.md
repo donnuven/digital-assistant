@@ -18,6 +18,7 @@ In the configuration file under ``config.py`` please add in the details of the f
 + play_directory: /path/to/your/music_file
 + root_user: your name
 + chat_log: if you plan on using rainmeter it would be /path/to/your/chat_log/chat.txt
++ shutdown: path/to/your/sound_file/shutdown.wav
 
 ## Interface Development:
 The development of the interface that I found appealing was to use a rainmeter skin interface to display the information of what the digital assistant was presenting whenever a query was answered. Essentially, I combined python with a fairly simple ``.ini`` script and had it be displayed there. Below is the current interface.
