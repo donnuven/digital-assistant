@@ -10,13 +10,13 @@ data = {
     "chrome_path": "windows-default",
     "youtube": "https://www.youtube.com/",
     "google_search": "https://google.com/search?q=",
-    "WOLFRAM_ID": "8UWWG7-TJJXUY3EWQ",
-    "play_directory": "C:\\Users\\danie\\Desktop\\music-genre",
-    "chat_log": "C:\\Users\\danie\\Desktop\\aris_chatlog\\chat.txt",
-    "root_user": "Daniel",
+    "WOLFRAM_ID": "WOLFRAM_ID",
+    "play_directory": "path/to/your/play_directory",
+    "chat_log": "path/to/your/rain_meter_skin/chat.txt",
+    "root_user": "your_name",
     "code":
-    "C:\\Users\\danie\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
-    "username": "daniel.tsang19@gmail.com",
-    "password": "dT181290",
-    "shutdown": "C:\\Users\\danie\\pythonprojects\\digital_assistant\\sound_files\\shutdown.wav"
+    "path/to/your/code_editor",
+    "username": "yourusername@gmail.com",
+    "password": "your_password",
+    "shutdown": "path/to/your/sound_file/shutdown.wav"
 }
