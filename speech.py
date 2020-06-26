@@ -166,7 +166,7 @@ class EMMA:
                 "https://www.youtube.com/results?" + video_query)
             search_results = re.findall(r'href=\"\/watch\?v=(.{11})',
                                         result.read().decode())
-            youtube_url = "https://www.youtube.com/watch?v=" + \
+            youtube_url = "https://www.youtube.com/watch?v=" + 
                 search_results[0]
             EMMA.speech("Here is your song, sir.")
             with assistant_writer.open_file() as file:
