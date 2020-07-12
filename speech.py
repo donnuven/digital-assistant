@@ -164,7 +164,7 @@ class EMMA:
             video_query = urllib.parse.urlencode({"search_query": video})
             result = urllib.request.urlopen(
                 "https://www.youtube.com/results?" + video_query)
-            search_results = re.findall(r'href=\"\/watch\?v=(.{11})',
+            search_results = re.findall(r"watch\?v=(\S{11})",
                                         result.read().decode())
             youtube_url = "https://www.youtube.com/watch?v=" + search_results[0]
             EMMA.speech("Here is your song, sir.")
