@@ -202,7 +202,7 @@ class EMMA:
             EMMA.speech("All right, sir.")
             EMMA.set_data()
             with assistant_writer.open_file() as file:
-                file.writer("All right, sir.")
+                file.write("All right, sir.")
 
         elif 'set up a new environment' in query.lower():
             os.startfile(data['code'])
